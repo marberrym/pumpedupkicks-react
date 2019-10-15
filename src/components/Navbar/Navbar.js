@@ -11,6 +11,7 @@ class Navbar extends Component {
       <AppBar color='primary'>
         <Toolbar color='primary'>
           <img src='./assets/pumpedupkicks.png' className='logo' />
+          <div>Hello</div>
         </Toolbar>
       </AppBar>
     );
