@@ -5,13 +5,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Router from './Router';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
-import grey from '@material-ui/core/colors/grey';
-import indigo from '@material-ui/core/colors/indigo';
+import red from '@material-ui/core/colors/red';
 
 let theme = createMuiTheme({
   palette: {
-    primary: grey,
-    secondary: indigo,
+    primary: {
+      main: '#f7f0f0',
+    },
+    secondary: red,
   },
   typography: {
     useNextVariants: true,
