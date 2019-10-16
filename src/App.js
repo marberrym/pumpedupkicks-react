@@ -6,7 +6,15 @@ import CardContent from './components/CardContent/CardContent';
 
 function App() {
   return (
-    <div className='App'>
+    <div
+      className='App'
+      style={{
+        background: 'url(./assets/sneakersBackground.jpg)',
+        backgroundSize: `cover`,
+        backgroundPosition: `center`,
+        backgroundRepeat: `no-repeat`,
+      }}
+    >
       <Navbar />
       <CardContent
         type='home'
